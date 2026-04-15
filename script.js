@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
 
   revealEls.forEach(el => observer.observe(el));
-
+  //Thezero
   /* ─── ACTIVE NAV LINK ────────────────────────────── */
   const sections = document.querySelectorAll('section[id]');
   const navAnchors = document.querySelectorAll('.nav__links a');
